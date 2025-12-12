@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// session middleware (memory store - fine for demo / school project)
+// session middleware 
 app.use(session({
   name: 'flash.sid',
   secret: process.env.SESSION_SECRET || 'dev-secret',
