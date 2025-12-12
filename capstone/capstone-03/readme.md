@@ -1,9 +1,5 @@
 index.html will look like
 
-Sign in/Register              Logout (in the very top right whenever you are logged in, in order to logout.)
-
-Username / Password =  Login
-Choose Username / Choose password = Register
 
 Decks
 New deck title  / Description of said deck title (optional) = Create Deck
@@ -22,4 +18,5 @@ Delete gets rid of it completely.
 
 app.js handles API calls and rendering.
 HTML , CSS and Vanilla JS and fetch API. 
+
 
