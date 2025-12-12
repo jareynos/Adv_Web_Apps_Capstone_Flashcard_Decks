@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flashcard Decks (Auth)</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Flashcard Decks</h1>
+
+    <section id="auth-section">
+      <h2>Sign in / Register</h2>
+      <div id="auth-forms">
+        <form id="login-form">
+          <input name="username" placeholder="Username" required />
+          <input name="password" type="password" placeholder="Password" required />
+          <button>Login</button>
+        </form>
+
+        <form id="register-form">
+          <input name="username" placeholder="Choose username" required />
+          <input name="password" type="password" placeholder="Choose password" required />
+          <button>Register</button>
+        </form>
+      </div>
+      <div id="auth-msg" class="small"></div>
+    </section>
+
+    <section id="app-section" class="hidden">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h2 id="welcome"></h2>
+        <div>
+          <button id="logout">Logout</button>
+        </div>
+      </div>
+
+      <section id="decks-section">
+        <h3>Decks</h3>
+        <ul id="decks-list"></ul>
+        <form id="new-deck-form">
+          <input name="title" placeholder="New deck title" required />
+          <input name="description" placeholder="Description (optional)" />
+          <button>Create Deck</button>
+        </form>
+      </section>
+
+      <section id="cards-section" class="hidden">
+        <button id="back-to-decks">← Back to decks</button>
+        <h3 id="deck-title">Deck</h3>
+        <div id="deck-meta"></div>
+
+        <ul id="cards-list"></ul>
+
+        <form id="new-card-form">
+          <input name="question" placeholder="Question" required />
+          <input name="answer" placeholder="Answer" required />
+          <button>Add Card</button>
+        </form>
+      </section>
+    </section>
+
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

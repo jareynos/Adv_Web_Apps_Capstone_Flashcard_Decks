@@ -1,0 +1,25 @@
+{
+  "decks": [
+    {
+      "id": "d_mj2ceb2v90rvuc",
+      "userId": "u_mj2cdvfv",
+      "title": "CSCI 4208",
+      "description": "Web Application Development"
+    },
+    {
+      "id": "d_mj2eimmeoaouds",
+      "userId": "u_mj2cfj6w",
+      "title": "abc",
+      "description": "av"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c_mj2eixif9iczfr",
+      "deckId": "d_mj2eimmeoaouds",
+      "userId": "u_mj2cfj6w",
+      "question": "What are the three core technologies of web development?",
+      "answer": "HTML, CSS, and JS"
+    }
+  ]
+}
