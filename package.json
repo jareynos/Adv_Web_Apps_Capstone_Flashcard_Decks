@@ -1,7 +1,7 @@
 {
   "name": "flashcard-decks-app-auth-plain",
   "version": "1.0.0",
-  "description": "Flashcards app with plaintext user accounts + sessions (for demo purposes)",
+  "description": "Flashcards app with plaintext user accounts + sessions ",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
