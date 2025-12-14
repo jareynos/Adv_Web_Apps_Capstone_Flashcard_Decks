@@ -17,7 +17,7 @@ function register({ username, password }) {
     e.status = 400;
     throw e;
   }
-  // NOTE: plaintext password (for demo only)
+  
   const user = { id: 'u_' + Date.now().toString(36), username, password };
   users.push(user);
   usersDb.saveAll(users);
